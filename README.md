@@ -1,86 +1,98 @@
 # Mawuli Dogbatse
 
-**Electrical Engineer | Telecommunications Researcher | AI/ML and Cybersecurity**
+**Electrical Engineer | Telecommunications Researcher | AI/ML & Cybersecurity**
 
-I am an electrical and telecommunications engineer with a First Class Honours BSc in Telecommunications Engineering from Kwame Nkrumah University of Science and Technology (KNUST), Ghana. My work and research interests sit at the intersection of intelligent wireless networks, secure communications, applied machine learning, cybersecurity, and electrical engineering.
+I am an Electrical Engineer and telecommunications researcher interested in developing practical engineering solutions through artificial intelligence, secure communication systems and intelligent network technologies.
 
-I am interested in building practical, reliable technologies that improve network performance, strengthen digital security, and support the development of next-generation connected systems.
+My work and research interests span electrical engineering, wireless communications, cybersecurity, machine learning and digital infrastructure. I am particularly interested in applying AI and data-driven methods to improve the security, reliability and performance of connected systems.
 
-## Research interests
+I enjoy combining engineering fundamentals, research and practical implementation to solve complex technical problems.
 
-- AI and machine learning for secure communications
-- Intelligent network optimisation and network performance modelling
-- 5G and 6G wireless systems, massive MIMO, and intelligent surfaces
-- Software-defined networking and DDoS detection and mitigation
-- Digital forensics and cyber threat assessment
-- IoT, edge-connected systems, and smart grids
-- RF systems, antennas, and electrical engineering applications
+## Areas of Interest
 
-## Research and technical work
+- **Artificial Intelligence and Machine Learning:** Deep learning, intelligent threat detection, neural networks and predictive modelling.
+- **Telecommunications:** 5G/6G networks, massive MIMO, wireless systems, network optimisation and radio-frequency engineering.
+- **Cybersecurity:** Network security, security operations, digital forensics, cybercrime investigation and secure systems.
+- **Electrical Engineering:** Industrial electrical systems, power distribution, motor control, electrical maintenance and automation.
+- **Emerging Technologies:** Internet of Things, intelligent edge systems, software-defined networking and reconfigurable intelligent surfaces.
 
-### Machine learning for DDoS detection in SDN-enabled 5G networks
-Undergraduate research on detecting and mitigating distributed denial-of-service attacks in software-defined 5G network environments with multiple controllers. The work explored DNN, LSTM, and SVM models using network traffic and performance features in a simulated environment.
+## Research and Technical Projects
 
-### Deep learning for massive MIMO
-Research collaboration on deep-learning-based downlink precoding for multi-antenna users, including Transformer and self-attention approaches to channel state information (CSI) compression. The research considers spectral efficiency and CSI feedback overhead.
+### AI and Cybersecurity
 
-### AI-powered surveillance threat assessment
-A research project exploring computer vision and video understanding methods, including YOLO and spatiotemporal models, to identify potentially threatening activity and support alert generation.
+- Machine learning-based DDoS detection and mitigation in SDN-enabled 5G networks with multiple controllers.
+- Machine learning approaches to crypto-ransomware detection and mitigation.
+- AI-powered surveillance threat assessment using object detection and action recognition.
 
-### Cybersecurity and digital forensics
-Practical learning and project work in cyber fraud investigation, forensic analysis, network security, and machine-learning-based detection of malicious activity.
+### Telecommunications and Wireless Systems
 
-### Wireless, RF, and IoT engineering
-Engineering projects have included antenna design and simulation, wireless communication analysis, IoT-based energy monitoring, and automated irrigation systems.
+- Deep learning-based downlink precoding for multi-antenna users in massive MIMO systems.
+- Transformer-based approaches to channel state information compression.
+- STAR-RIS-assisted integrated sensing, communication and covert transmission research.
+- Wireless network performance analysis and optimisation.
 
-## Research dissemination
+### Electrical and Engineering Systems
+
+- Industrial electrical systems and maintenance studies.
+- RF and antenna design using electromagnetic simulation tools.
+- IoT-based energy monitoring and automated irrigation systems.
+
+Project repositories will contain technical documentation, implementation details, experiment results and relevant references. Some research projects may be presented as technical summaries where source code or datasets cannot be publicly shared.
+
+## Research and Publications
 
 **STAR-RIS-Assisted ISACC via Ambiguity-Domain Signal Hiding and Temporal Phase Randomization**
 
-Co-author of this research paper, accepted for peer-reviewed presentation at IEEE MECOM 2026 in Marrakech, Morocco. Presentation and publication details will be updated when available.
+Accepted for peer-reviewed presentation at IEEE MECOM 2026, Marrakech, Morocco.
 
-## Professional experience
+Co-authored research contribution. Full bibliographic and publication details will be added when the conference record or proceedings are available.
 
-- **Trainee Electrical Engineer, Tema Oil Refinery (TOR)** — Exposure to industrial electrical systems, maintenance practices, inspections, motor control, switchgear, and electrical distribution.
-- **Chief Technology Officer, Cyber Secured Africa** — Technology strategy, software development, digital transformation, and cybersecurity technology initiatives.
-- **Teaching and Research Assistant, KNUST** — Supporting undergraduate teaching, laboratory activities, student projects, and research in telecommunications engineering.
-- **Network Simulation and Optimisation Intern, MTN Ghana** — Internship exposure within IP and Base Station Subsystem (BSS) network teams.
+## Professional Experience
+
+- **Trainee Electrical Engineer — Tema Oil Refinery (TOR), Ghana**  
+  Exposure to industrial electrical systems, maintenance activities, electrical distribution, switchgear, motor control and technical documentation.
+- **Chief Technology Officer — Cyber Secured Africa**  
+  Technology strategy, software development, digital transformation and cybersecurity-related technology initiatives.
+- **Teaching and Research Assistant — Department of Telecommunication Engineering, KNUST**  
+  Academic support, laboratory instruction, student mentoring and research in telecommunications, wireless systems and machine learning.
+- **Network Simulation and Optimisation Intern — MTN Ghana**  
+  Exposure to telecommunications network simulation, optimisation and network operations.
+
+## Technical Skills
+
+| Category | Tools and Technologies |
+|---|---|
+| Programming and analysis | Python, MATLAB |
+| AI and machine learning | TensorFlow, Keras, scikit-learn |
+| Networking and cybersecurity | Linux, Bash, Wireshark, Cisco Packet Tracer, Huawei eNSP |
+| RF and electrical simulation | Ansys HFSS, ADS, MATLAB/Simulink |
+| Circuit and system design | Multisim, LTspice |
+| Engineering practice | Technical documentation, system analysis, testing and troubleshooting |
 
 ## Education
 
 **BSc Telecommunications Engineering, First Class Honours**  
 Kwame Nkrumah University of Science and Technology (KNUST), Ghana.
 
-## Technical toolkit
+## Professional and Research Engagement
 
-| Area | Tools and technologies |
-|---|---|
-| Programming and data science | Python, MATLAB, scikit-learn |
-| Machine learning | TensorFlow, Keras, DNN, LSTM, SVM |
-| Networking and security | Linux, Bash, Wireshark, Mininet, Ryu, OpenFlow |
-| Network simulation | Cisco Packet Tracer, Huawei eNSP |
-| RF and electronics | Ansys HFSS, Keysight ADS, MATLAB/Simulink, Multisim, LTspice |
+- IEEE and IEEE Communications Society activities.
+- Internet governance and digital safety advocacy.
+- Cybersecurity education and professional development.
+- Research collaboration in wireless communications and intelligent systems.
 
-## Leadership and professional engagement
+## What I Am Working Towards
 
-- IEEE Communications Society (ComSoc) KNUST Chapter leadership
-- IEEE student and technical community engagement
-- IEEEXtreme student ambassador activities
-- Internet governance and online safety advocacy
-- National Society of Black Engineers (NSBE) KNUST engagement
+I am committed to advancing research and practical engineering in AI-driven security and intelligent network optimisation for next-generation wireless and IoT systems.
 
-## Current direction
+I welcome meaningful collaboration in engineering research, telecommunications, cybersecurity, machine learning and technology development.
 
-**AI-driven security and intelligent network optimisation for next-generation wireless and IoT systems.**
+## Professional Links
 
-I am particularly interested in research collaborations and engineering projects involving secure wireless communications, AI-enabled network intelligence, cybersecurity, and practical electrical and telecommunications systems.
-
-## Professional links
-
-- **ORCID:** [0009-0000-8935-1429](https://orcid.org/0009-0000-8935-1429)
 - **LinkedIn:** [Mawuli Dogbatse](https://www.linkedin.com/in/mawuli-dogbatse-10972315a)
-- **GitHub:** [github.com/MawuliD1](https://github.com/MawuliD1)
+- **ORCID:** [0009-0000-8935-1429](https://orcid.org/0009-0000-8935-1429)
+- **GitHub:** [@MawuliD1](https://github.com/MawuliD1)
 
 ---
 
-*This profile highlights selected professional and research interests. Individual project repositories will be added as their documentation, code, data permissions, and publication restrictions are reviewed.*
+*This profile is a professional overview. Individual repositories provide the technical details, project scope, authorship and supporting documentation for each contribution.*
