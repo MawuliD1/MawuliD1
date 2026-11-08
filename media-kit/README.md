@@ -3,23 +3,22 @@
 **Mawuli Dogbatse**  
 Electrical Engineer | Telecommunications Researcher | AI/ML & Cybersecurity
 
-A structured professional reference for academic institutions, research groups, conference organisers, employers, collaborators and media professionals.
+This media and research kit is the organised professional reference for my biography, research direction, conference papers, technical projects, experience, awards, leadership, training and professional engagements. It is intended for universities, research groups, conference organisers, employers, collaborators and media professionals.
 
 ## Contents
 
 | Document | Purpose |
 |---|---|
-| [Professional Biography](biography.md) | Short, extended and introductory biographies |
-| [Research Profile](research-profile.md) | Research themes, methods and collaboration areas |
-| [Selected Projects](selected-projects.md) | Research and engineering project summaries |
-| [Publications and Conference Presentations](publications.md) | Co-authored papers presented at IEEE ICAST 2026 |
-| [Awards and Recognition](awards-and-recognition.md) | Awards, fellowships and professional recognition |
-| [Professional Experience](professional-experience.md) | Engineering, technology, academic and internship experience |
-| [Leadership and Affiliations](leadership-and-affiliations.md) | IEEE, internet governance, student leadership and service |
-| [Certifications and Training](certifications.md) | Training and credentials listed in my CV |
-| [Speaking and Technical Engagements](speaking.md) | Potential technical topics and engagement formats |
-| [Collaboration and Research Enquiries](collaboration.md) | Research interests and collaboration principles |
-| [Interview and Media Guide](interview-guide.md) | Interview, commentary and media request guidance |
+| [Professional Biography](biography.md) | Short, extended and one-line biographies |
+| [Research Profile](research-profile.md) | Research themes, methods, technical platforms and collaboration interests |
+| [Publications and Conference Presentations](publications.md) | Three co-authored papers presented at IEEE ICAST 2026, author lists and conference details |
+| [Selected Projects](selected-projects.md) | Technical summaries, reported results, methods and project-release safeguards |
+| [Professional Experience](professional-experience.md) | Academic, industrial, technology and network-engineering experience |
+| [Awards, Leadership and Affiliations](awards-leadership.md) | Recognition, IEEE roles, professional memberships, student leadership and service |
+| [Certifications and Technical Skills](certifications-skills.md) | Professional training, tools, competencies and languages |
+| [Speaking and Technical Engagements](speaking.md) | Potential technical topics and event enquiry guidance |
+| [Collaboration and Research Enquiries](collaboration.md) | Research interests, collaboration formats and integrity principles |
+| [Interview and Media Guide](interview-guide.md) | Interview, attribution, recording and media request information |
 
 ## Professional links
 
@@ -29,12 +28,14 @@ A structured professional reference for academic institutions, research groups, 
 
 ## Contact and privacy
 
-For professional enquiries, use LinkedIn or contact details published on my current professional profiles. Residential address, private telephone numbers and referee contact details are intentionally excluded.
+For professional enquiries, please use LinkedIn or the contact details published on my current professional profiles. This public repository intentionally excludes residential address, personal telephone numbers, referee details and private contact information.
 
-## Accuracy and use
+## Accuracy, publication and use
 
-This kit is based on my supplied CV and professional information. It is a professional summary, not a substitute for official institutional records, certificates or publisher metadata. Where the CV contains differing dates or overlapping role descriptions, the discrepancy is identified rather than silently resolved.
+This kit is a professional summary based on my CV and the research information supplied for this profile. Conference presentation, proceedings publication and indexing are separate statuses. The three papers listed here are identified as presented at IEEE ICAST 2026. The CV provides the proceedings ISBN; a direct IEEE Xplore record or DOI should be added when the official record is available and verified.
 
-Research metrics are presented in their stated research or simulation context. Simulation findings are not represented as field deployment results. Co-authored manuscripts, figures, datasets, employer information and restricted materials are shared only where permissions allow.
+Roles and dates are presented as supplied where sufficiently clear. Where the source CV contains overlapping role labels or inconsistent dates, the public profile avoids inventing a chronology. Project results are attributed to their stated research or simulation context, not represented as proof of live commercial deployment.
+
+Code, datasets, figures, co-authored materials and industrial information are shared only where permissions and applicable confidentiality requirements allow.
 
 Last reviewed: November 2026.
