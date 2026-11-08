@@ -87,6 +87,10 @@ I am committed to advancing research and practical engineering in AI-driven secu
 
 I welcome meaningful collaboration in engineering research, telecommunications, cybersecurity, machine learning and technology development.
 
+## Professional Media and Research Kit
+
+For a more detailed professional overview, see the [Media and Research Kit](media-kit/README.md). It includes my professional biography, research profile, selected technical projects, speaking topics, collaboration guidance and interview information.
+
 ## Professional Links
 
 - **LinkedIn:** [Mawuli Dogbatse](https://www.linkedin.com/in/mawuli-dogbatse-10972315a)
