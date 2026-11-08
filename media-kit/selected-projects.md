@@ -1,70 +1,83 @@
 # Selected Projects and Technical Work
 
-This document gives a concise overview of selected research and engineering work. It is intended as a guide to the scope of my technical interests. Detailed repositories, reports, code and datasets will be linked only when they are ready for public release and the relevant permissions have been confirmed.
+This document presents selected research and engineering work drawn from my academic and professional experience. Project descriptions distinguish reported research results from simulation outcomes and areas of continuing interest. Code, data and co-authored materials will be linked only where public release is permitted.
 
-## AI, machine learning and cybersecurity
+## 1. STAR-RIS-assisted integrated sensing and covert communication
 
-### Machine-learning-based DDoS detection and mitigation in SDN-enabled 5G networks
+**Research title:** *STAR-RIS-Assisted Integrated Sensing and Covert Communication via Ambiguity-Domain Signal Hiding and Temporal Phase Randomization.*
 
-**Focus:** Investigating machine-learning approaches to detecting and mitigating distributed denial-of-service activity in a software-defined 5G network environment with multiple controllers.
+- Co-engineered a STAR-RIS framework concealing covert data in radar delay-Doppler ambiguity sidelobes, maintaining a reported 1.77 dB margin below the radar peak sidelobe level, with PSL of -13.47 dB.
+- Formulated per-pulse temporal phase randomisation to induce Doppler-estimability asymmetry against energy, coherent and optimal likelihood-ratio-test wardens. The reported minimum detection error probability was 0.919, meeting the stated threshold of 0.90.
+- Developed a Riemannian-manifold alternating optimisation framework balancing Cramér-Rao-bound sensing with covert throughput. The reported covert rate was 8.13 bits/symbol, with monotonic convergence in three iterations.
 
-**Technical scope:** Network traffic and flow-feature analysis, SDN experimentation, model development and comparative evaluation of machine-learning approaches.
+**Conference:** Presented as a co-authored paper at IEEE ICAST 2026, Accra, Ghana.
 
-**Methods and tools:** Mininet, Ryu, OpenFlow, Python and machine-learning methods including deep neural networks, LSTM and support vector machines.
+## 2. Lightweight on-device CNN for audio deepfake detection in mobile banking
 
-**Documentation standard:** A public project record should identify the experimental topology, dataset provenance, feature definitions, train/test methodology, class balance, evaluation metrics, limitations and reproducibility instructions. Simulation results must be labelled as simulation results rather than real-world operational performance.
+- Developed a 547,000-parameter CNN with a 2.10 MB float32 model size and a 0.60 MB INT8 model size.
+- Reported CPU inference latency of 4.962 ms.
+- Evaluated using ASVspoof 2019/2021 LA datasets under raw G.711 codec and additive white Gaussian noise (AWGN) conditions.
+- Reported a clean equal error rate (EER) of 9.84%.
+- Under 20 dB noise, reported 14.80% EER, compared with 16.41% for a model eight times larger.
+- Conducted frequency-band ablation, identifying the 0–2 kHz bands as an important concentration of discriminative features.
 
-### Machine-learning approaches to crypto-ransomware detection
+**Conference:** Presented as a co-authored paper at IEEE ICAST 2026, Accra, Ghana.
 
-**Focus:** Exploring data-driven methods for identifying ransomware-related behaviour.
+## 3. Resilient low-power LoRa mesh network for remote forest conservation
 
-**Documentation standard:** Any public release should describe the dataset source, labelling assumptions, analysis pipeline, evaluation protocol and limitations. Malware samples, credentials and unsafe executable content must not be published.
+- Modelled 868 MHz foliage loss and knife-edge diffraction over distances up to 1,000 m.
+- Analysed single-hop link collapse within 265 m under the studied terrain-obstruction conditions.
+- Built a stateless Layer-2 forwarding engine in ns-3 with sequence deduplication and 150–400 ms randomised backoff, mapped to Semtech AN1200.13 Time-on-Air models.
+- Reported 100% packet delivery ratio across an 800 m obstructed corridor using five nodes at 200 m spacing, compared with 0% for the direct star LoRaWAN baseline in the evaluated scenario.
 
-### AI-powered surveillance threat assessment
+**Conference:** Presented as a co-authored paper at IEEE ICAST 2026, Accra, Ghana.
 
-**Focus:** Research into combining object detection and action recognition for video-based threat assessment.
+## 4. Machine-learning-based DDoS detection and mitigation in SDN-enabled 5G networks
 
-**Technical scope:** Exploration of detection and temporal action-recognition methods, including YOLO and C3D/I3D approaches.
+Undergraduate thesis research investigating DDoS detection and mitigation in a simulated SDN-enabled 5G mobile network with multiple controllers.
 
-**Documentation standard:** Public demonstrations must respect privacy, consent, dataset licensing and the limitations of automated threat classification. Model outputs should not be presented as definitive evidence of intent or wrongdoing.
+- Led a team of three students evaluating deep neural network (DNN), long short-term memory (LSTM) and support vector machine (SVM) models.
+- Integrated optimised machine-learning models into a multiple-controller SDN architecture.
+- Reported model accuracies of 99.48% for DNN, 99.57% for LSTM and 98.89% for SVM following hyperparameter tuning.
+- Evaluated controller scalability, mitigation latency and throughput preservation under attack traffic in a simulated environment.
+- Conducted comparative analysis of model performance for DDoS detection and mitigation.
 
-## Telecommunications and wireless systems
+**Methods and tools:** Mininet, Ryu, OpenFlow, Python and machine-learning methods.
 
-### Deep-learning-based downlink precoding and CSI compression for massive MIMO
+These are reported experimental results from a simulated research environment, not claims of deployment or verified performance in a live commercial 5G network. A public technical repository should document dataset provenance, feature definitions, data splitting, class balance, leakage controls, evaluation metrics and reproducibility.
 
-**Focus:** Research into learning-based approaches for multi-antenna downlink precoding and reducing channel-state-information feedback overhead.
+## 5. Deep-learning-based downlink precoding and CSI compression for massive MIMO
 
-**Technical scope:** Transformer and self-attention architectures, CSI representation and compression, and evaluation of communication-system performance.
+Research collaboration with Ing. K. A. P. Agyekum on deep-learning-based downlink precoding for multi-antenna users in massive MIMO systems.
 
-**Potential evaluation dimensions:** Spectral efficiency, feedback overhead, reconstruction quality, computational complexity and robustness under different channel conditions.
+- Developed a Transformer-based precoding scheme aimed at improving spectral efficiency and reducing CSI overhead.
+- Designed a self-attention model for efficient CSI compression.
+- Validated the approach through simulations.
 
-### STAR-RIS-assisted ISACC research
+## 6. Crypto-ransomware detection and mitigation using machine learning
 
-**Research title:** *STAR-RIS-Assisted ISACC via Ambiguity-Domain Signal Hiding and Temporal Phase Randomization.*
+Applied machine-learning algorithms to research the detection and mitigation of cryptographic ransomware attacks. Public documentation should identify the evaluation environment, dataset provenance, labelling assumptions and limitations. Malware samples, credentials and unsafe executable content must not be published.
 
-**Status:** Accepted for peer-reviewed presentation at IEEE MECOM 2026, Marrakech, Morocco.
+## 7. AI-powered surveillance threat assessment and autonomous security alerts
 
-This is a co-authored research contribution. The full author list, final bibliographic details and proceedings information should be taken from the official conference record when available. Do not redistribute co-authored manuscripts, figures or implementation materials without the appropriate permissions.
+Researched a multi-modal security monitoring approach combining YOLO-based object detection with C3D/I3D action recognition. The work included automated alert notifications for threat-response support. Public demonstrations must respect privacy, consent and dataset licences. Automated classifications should not be presented as definitive evidence of intent or wrongdoing.
 
-## Electrical, RF and IoT engineering
+## 8. Additional academic and engineering projects
 
-Selected areas of practical and academic project work include:
+- **Non-Orthogonal Multiple Access (NOMA):** analysis of techniques intended to improve spectrum efficiency and data throughput in next-generation wireless communication.
+- **5 GHz antenna design and simulation:** antenna design using Ansys HFSS, with evaluation of radiation patterns, S11 and voltage standing wave ratio (VSWR).
+- **Intelligent IoT energy conservation:** smart metering for energy monitoring and conservation.
+- **Automated irrigation:** sensor-actuator architecture for agricultural water-use optimisation.
+- **Industrial electrical engineering:** practical exposure to MV/LV systems, switchgear, motor control, UPS equipment, inspections and maintenance support.
 
-- RF and antenna design, including a 5 GHz folded-dipole antenna study using electromagnetic simulation.
-- IoT-based energy monitoring.
-- Automated irrigation systems.
-- NOMA spectral-efficiency analysis.
-- Engineering studies involving industrial electrical systems, electrical distribution and motor-control concepts.
+## Project publication and confidentiality checklist
 
-## Project publication checklist
+Before publishing any project repository:
+1. Confirm project title, scope, status and individual contribution.
+2. Obtain required co-author, supervisor, employer and institutional permissions.
+3. Check licences and redistribution rights for code, datasets, figures and documents.
+4. Remove credentials, tokens, personal data and sensitive operational information.
+5. Explain methods, evaluation, limitations and reproducibility requirements.
+6. Include appropriate references and acknowledgements.
 
-Before making a project repository public, confirm:
-
-1. The project title, scope, status and individual contribution are accurately stated.
-2. Co-authors, supervisors, employers and institutions have granted any required permission.
-3. Code, datasets, images and documents have suitable licences or redistribution rights.
-4. Credentials, tokens, personal information and sensitive operational details have been removed.
-5. Results can be reproduced or their limitations are clearly explained.
-6. The README includes setup instructions, dependencies, methods, results, limitations and references where applicable.
-
-No confidential Tema Oil Refinery information, internal drawings, operational configurations, proprietary Cyber Secured Africa materials or restricted institutional datasets should be uploaded.
+Do not publish confidential Tema Oil Refinery information, internal drawings, control configurations, operational records, proprietary Cyber Secured Africa materials or restricted institutional datasets.
